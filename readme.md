@@ -36,5 +36,20 @@
     +----[SHA256]-----+
 
     ```
+- open the y.pb
+    ```
+    sudo vi y.pb
+    ```
+- Copy the contents of the file.
 
+- Open your github accounts and go to settings.
+
+- In settings section, go to SSH and GPG keys.
+
+- Click on Add SSH key and copy the contents of the y.pb file.
+
+- To complete the setup run command:
+    ```
+    ssh -T git@github.com
+    ```
     
