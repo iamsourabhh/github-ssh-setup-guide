@@ -52,4 +52,8 @@
     ```
     ssh -T git@github.com
     ```
-    
+- Add your username and email to github in cli
+    ```
+    git config --global user.email "somethin@gmail.com"
+    git config --global user.name "something"
+    ```
